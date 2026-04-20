@@ -1,0 +1,14 @@
+@media(min-width:40rem){
+    .navbar{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .navbar p{
+        padding: 0.2rem 0.3rem;
+    }
+
+    .mobile-navbar{
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+*{margin: 0;}
+
+body{
+    font-family: Verdana, sans-serif;
+    color:darksalmon;
+}
+
+.flex{
+    display: flex;
+}
+
+.header{
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid lightcoral;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color:violet;
+    font-weight: bold;
+}
+
+.navbar{
+    display: none;
+}
+
+.mobile-navbar{
+    display: flex;
+    gap: 1rem;
+}
+
+.sidebar{
+    display: none;
+}
+
+.main-content{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 90svh;
+}
