@@ -2,7 +2,8 @@
 
 body{
     font-family: Verdana, sans-serif;
-    color:darksalmon;
+    color: lightgray;
+    background-color: rgb(47, 45, 50);
 }
 
 .flex{
@@ -13,12 +14,11 @@ body{
     padding: 0.6rem 1rem;
     display: flex;
     justify-content: space-between;
-    border-bottom: 0.1rem solid lightcoral;
 }
 
 .logo{
     font-size: 1.5rem;
-    color:violet;
+    color:lightskyblue;
     font-weight: bold;
 }
 
@@ -31,8 +31,9 @@ body{
     gap: 1rem;
 }
 
-.sidebar{
-    display: none;
+.grid{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .main-content{
