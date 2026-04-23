@@ -6,8 +6,10 @@ body{
     background-color: rgb(32, 30, 34);
 }
 
-.flex{
+.flex.grid{
     display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
 }
 
 .header{
@@ -36,10 +38,6 @@ body{
    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.card{
-    
-}
-
 .main-content{
     padding: 1rem;
     display: flex;
@@ -47,3 +45,91 @@ body{
     gap: 2rem;
     min-height: 90svh;
 }
+
+
+
+.material-symbols-outlined{
+  font-size:16px;
+  vertical-align:middle;
+}
+
+
+    /* ANVÄNDE AI HÄR */
+    /* Outer header area */
+    .nav-row{
+      width:100%;
+      display:flex;
+      align-items:center;
+      justify-content:space-between; /* big gap between left and right */
+      gap:16px;
+      background: rgba(255,255,255,0.03);
+      padding:8px 12px;
+      border-radius:12px;
+    }
+
+    /* Left group: inline menu items */
+    .nav-left{
+      display:inline-flex;
+      gap:14px;
+      align-items:center;
+      overflow:hidden;
+      flex:0 1 auto;
+    }
+    .nav-left .item{
+      white-space:nowrap;
+      font-size:13px;
+      display:inline-flex;
+      gap:6px;
+      align-items:center;
+      color:#d6d6d6;
+    }
+
+    /* Middle: search container (separate block) */
+    .nav-search{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex:0 0 auto;       /* fixed natural width so there's a visible gap */
+      min-width:260px;     /* adjust to increase/decrease gap */
+    }
+    .search-pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      width:100%;
+      max-width:420px;
+      padding:6px 12px;
+      background: rgba(0,0,0,0.12); /* darker inner field */
+      border-radius:8px;
+      color:#d6d6d6;
+      font-size:13px;
+    }
+
+    /* Thin divider to the left of the search (subtle like reference) */
+    .nav-search::before{
+      content:"";
+      display:inline-block;
+      width:1px;
+      height:22px;
+      margin-right:12px;
+      margin-left:6px;
+      background: rgba(255,255,255,0.04);
+      vertical-align:middle;
+    }
+
+    /* Right: balance box */
+    .nav-right{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      flex:0 0 auto;
+    }
+    .nav-right .balance{
+      padding:6px 10px;
+      background: rgba(255,255,255,0.02);
+      border-radius:8px;
+      font-size:13px;
+      color:#d6d6d6;
+    }
+
+    .material-symbols-outlined{ font-size:16px; vertical-align:middle; }
