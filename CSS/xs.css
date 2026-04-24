@@ -303,40 +303,57 @@ Retrieved 2026-04-24, License - CC BY-SA 4.0
     }
 
 .footer {
+    width: 100%;
     background-color: #0b0d12;
-    padding: 50px 20px;
+    padding: 60px 0 30px;
     color: #9ca3af;
-    font-size: 14px;
 }
+
 
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.footer-columns {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    margin-bottom: 40px;
     flex-wrap: wrap;
 }
 
 .footer-column {
     display: flex;
     flex-direction: column;
-    min-width: 150px;
+    min-width: 160px;
 }
 
 .footer-column h4 {
     color: #ffffff;
     margin-bottom: 12px;
-    font-size: 14px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
 }
 
 .footer-column a {
     color: #9ca3af;
     text-decoration: none;
     margin-bottom: 6px;
-    transition: color 0.2s ease;
+    font-size: 13px;
+    transition: all 0.2s ease;
 }
 
 .footer-column a:hover {
     color: #ffffff;
+}
+
+
+.footer-bottom {
+    border-top: 1px solid #1f2933;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #6b7280;
 }
