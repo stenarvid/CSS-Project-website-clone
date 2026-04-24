@@ -304,3 +304,42 @@ Retrieved 2026-04-24, License - CC BY-SA 4.0
   mask-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%); 
   z-index: 1;
 }
+
+.footer {
+    background-color: #0b0d12;
+    padding: 50px 20px;
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+}
+
+.footer-column h4 {
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.footer-column a {
+    color: #9ca3af;
+    text-decoration: none;
+    margin-bottom: 6px;
+    transition: color 0.2s ease;
+}
+
+.footer-column a:hover {
+    color: #ffffff;
+}
