@@ -8,4 +8,49 @@
     .column{
         width: 30%;
     }
+
+
+    .supergrump-container{
+    display: flex;
+    height: 15%;
+    width: 92.7%;
+    background-color: #383838;
+    justify-content:space-between;
+    flex-flow: row nowrap;
+    gap: 24px;
+    }
+
+    .grumpytext-container{
+    flex: 1 1 50%;
+    color:#ddd;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    }
+
+    .grumpytext-container h2{
+    padding-top: 2rem;
+    }
+
+    .grumpytext-container p{
+    padding-top: 2rem;
+    }
+
+
+    .grumpycat-container{
+    flex: 0 0 48%; 
+    display:block;
+    height: 100%; 
+    overflow: hidden;
+    }
+
+    .grumpycat-container img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%); 
+    z-index: 1;
+    }
 }
