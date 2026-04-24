@@ -16,7 +16,7 @@
     width: 92.7%;
     background-color: #383838;
     justify-content:space-between;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     gap: 24px;
     }
 
@@ -26,6 +26,7 @@
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 3rem;
+    justify-content: center;
     }
 
     .grumpytext-container h2{
@@ -46,7 +47,7 @@
 
     .grumpycat-container img{
     flex: 1 0 100%;
-    scroll-snap-align: start;
+    scroll-snap-align: top;
     object-fit: cover;
     width: 100%;
     height: 100%;
