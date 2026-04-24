@@ -7,12 +7,18 @@ html,body{
   box-sizing:border-box;
 }
 
-body{
-  width:90%;        
+body{        
   margin:0 auto;   
   font-family: Verdana, sans-serif;
   color:#dfdfdf;
   background:#17161a;
+  overflow: hidden;
+}
+
+.body-backgroundobj{
+  width: 90%;
+  margin:0 auto;   
+  overflow: hidden;
 }
 
 .flex.grid{
@@ -304,16 +310,19 @@ Retrieved 2026-04-24, License - CC BY-SA 4.0
 
 .footer {
     width: 100%;
-    background-color: #0b0d12;
-    padding: 60px 0 30px;
     color: #9ca3af;
-}
-
-
-.footer-container {
+  }
+  
+  .footer-background{
+    width: 100%;
+    background-color: #0b0d12;
+  }
+  
+  .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 60px 0 30px;
+    align-content: center;
 }
 
 
