@@ -12,4 +12,8 @@
         .container{
         display: flex;
     }
+
+    .column{
+        width: 17.5%;
+    }
 }
